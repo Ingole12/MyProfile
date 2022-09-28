@@ -5,39 +5,87 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
+    <style>
+        table,th,tr,td{
+            border: 4px solid rgb(115, 127, 125);
+            border-collapse: collapse;
+            font-size: 25px;    
+            text-align: center;
+            padding: 20px;
+            margin-right: 80px;
+        }
+    </style>
 </head>
 <body>
-    <h3>My Education Details</h3>
+    <!-- <h3>My Education Details</h3>
     <hr>
     <hr>
     <ol>
-        <li><b>BCS</b></li>
-        <b>College Name:</b> Sangola College
-        <details>
-            <summary>College Academic</summary>
-            <strong>Pass Out year:</strong>2020
-            <br>
-            <strong>Mark's Obtained:</strong>77%
-        </details>
+        <div class="box1">
+            <li><b>BCS</b></li>
+            <b>College Name:</b> Sangola College
+            <details>
+                <summary>College Academic</summary>
+                <strong>Pass Out year:</strong>2020
+                <br>
+                <strong>Mark's Obtained:</strong>77%
+            </details>
+        </div>
         <hr>
-        <li><b>HSC</b></li>
-        <b>College Name:</b> Sangola Vidyamandir
-        <details>
-            <summary>College Academic</summary>
-            <strong>Pass Out year:</strong>2017
-            <br>
-            <strong>Mark's Obtained:</strong>60%
-        </details>
-        <hr>
-        <li><b>SSC</b></li>
-        <b>School Name:</b> Sangola Vidyamandir
-        <details>
+        <div class="box2">
+            <li><b>HSC</b></li>
+            <b>College Name:</b> Sangola Vidyamandir
+            <details>
+                <summary>College Academic</summary>
+                <strong>Pass Out year:</strong>2017
+                <br>
+                <strong>Mark's Obtained:</strong>60%
+            </details>
+        </div>
+            <hr>
+        <div class="box3">
+
+                <li><b>SSC</b></li>
+                <b>School Name:</b> Sangola Vidyamandir
+                <details>
             <summary>School Academic</summary>
             <strong>Pass Out year:</strong>2015
             <br>
             <strong>Mark's Obtained:</strong>70%
         </details>
-    </ol>
-    
+        </div>
+    </ol> -->
+    <table >
+        <caption>Education Details</caption>
+        <thead>
+        <td>Qualification</td>
+        <td>School/College</td>
+        <td>Year Completion</td>
+        <td>Percentage</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BCS</td>
+            <td>Sangola College Sangola</td>
+            <td>2020</td>
+            <td>74%</td>
+            
+          </tr>
+          <tr>
+            <td>HSC</td>
+            <td>Sangola Vidyamandir & Jr College Sangola</td>
+            <td>2017</td>
+            <td>60%</td>
+          </tr>
+          <tr>
+            <td>SSC</td>
+            <td>Sangola Vidyamandir Sangola</td>
+            <td>2015</td>
+            <td>70%</td>
+          </tr>
+        </tbody>
+
+    </table>
+
 </body>
 </html>
