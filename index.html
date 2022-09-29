@@ -16,21 +16,22 @@
             text-align: right;
             font-size: 25px;
         }
-     .head{
-        margin: 20px;
-        /* padding-right: 10px; */
-     }
-     .el{
-        padding-left: 10px;
-     }
+
+        .head {
+            margin: 20px;
+            display: inline;
+            list-style: none;
+            height: 30px;
+            width: 180px;
+        }
 
         .link {
             font-size: 20px;
             font-weight: bold;
             text-transform: uppercase;
-            /* text-decoration: none; */
-            font-family: 'Sofia', cursive;
+            font-family: 'Arvo', serif;
             background-color: #34495e;
+            text-shadow: 4px 4px 5px #e51818;    
         }
 
         .b {
@@ -41,19 +42,11 @@
 
         footer {
             text-align: center;
-            color: rgb(1, 12, 20);
             font-size: 30px;
         }
 
         a {
             color: #3c40c6;
-        }
-        #me{
-            font-size: 30px;
-            font-weight: bold;
-        }
-        .fo{
-            margin: 25px;
         }
     </style>
 </head>
@@ -62,9 +55,14 @@
 <body>
 
     <header>
-        <span class="head"><i class="fa fa-user" aria-hidden="true"></i><span class="el"><b>Rahul Ingole</b></span></span>
-        <span class="head"><i class="fa fa-phone-square" aria-hidden="true"></i> <span class="el"><b>7499808185</b></span></span>
-        <span class="head"><i class="fa fa-envelope" aria-hidden="true"></i><span class="el"><b>rahulingole2112@gmail.com</b></span></span>
+        <ul class="head">
+            <li class="head"><i class="fa fa-user" aria-hidden="true"></i><span class="el"><b>Rahul Ingole</b></span>
+            </li>
+            <li class="head"><i class="fa fa-phone-square" aria-hidden="true"></i> <span
+                    class="el"><b>7499808185</b></span></li>
+            <li class="head"><i class="fa fa-envelope" aria-hidden="true"></i><span
+                    class="el"><b>rahulingole2112@gmail.com</b></span></li>
+        </ul>
     </header>
     <br>
     <nav class="link">
@@ -78,19 +76,21 @@
     </nav>
     <br>
     <section>
-
-        <iframe src="home.html" name="myframe" frameborder="0" width="1600px" height="600px">
-
+        <iframe src="home.html" name="myframe" frameborder="0" width="1600px" height="800px">
         </iframe>
     </section>
-    <br>
-    <br>
     <footer>
-        <span id="me">Follow me :</span>
-        <span class="fo"><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square"aria-hidden="true"></i></a></span>
-        <span class="fo"><a href="https://www.google.co.in/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></span>
-        <span class="fo"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></span>
-        <span class="fo"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"aria-hidden="true"></i></a></span>
+        <ul>
+            <li class="head">Follow me :</li>
+            <li class="head"><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square"
+                        aria-hidden="true"></i></a></li>
+            <li class="head"><a href="https://www.google.co.in/" target="_blank"><i class="fa fa-google"
+                        aria-hidden="true"></i></a></li>
+            <li class="head"><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a></li>
+            <li class="head"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"
+                        aria-hidden="true"></i></a></li>
+        </ul>
     </footer>
 
 </body>

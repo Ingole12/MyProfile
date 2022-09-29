@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    input[type="text"]{
+        color: rgb(45, 125, 125);
+        background-color: bisque;
+        width: 180px;
+        text-transform: capitalize;
+        border-radius: 9px;
+    }
+    input[type="number"],input[type="email"],input[type="datetime-local"]{
+        background-color: bisque;
+        width: 180px;
+        border-radius: 9px; 
+    }
+    input[type="submit"],input[type="reset"]{
+        color: rgb(3, 14, 14);
+        background-color: bisque;
+        width: 80px;
+        border-radius: 9px;
+    }
+    input[type="reset"]:hover{
+        background-color: red;
+        color: blue;
+    }
+    input[type="submit"]:hover{
+        background-color: red;
+        color: blue;
+    }
+   </style>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="">First Name</label></td>
+
+                    <td><input type="text" autofocus required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name</label></td>
+
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label >Mobile NO</label></td>
+                    <td><input type="number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email Address</label></td>
+
+                    <td><input required placeholder="abc@gmil.com" type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+
+                    <td><input type="password" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Graduation</label></td>
+
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date Of Birth</label></td>
+
+                    <td><input type="datetime-local" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Pass Out Year</label></td>
+
+                    <td><input type="datetime-local" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Country</label></td>
+
+                    <td><input type="text" value="India" disabled></td>
+                </tr>
+                <tr>
+                    <td><label for="">Citizenship</label></td>
+
+                    <td><input type="text" value="India"  readonly></td>
+                </tr>
+                <tr>
+                    <td><label for="">Profile Photo</label></td>
+
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Upload Mark Sheet</label></td>
+
+                    <td><input type="file" multiple name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="">Select Graduation</label></td>
+
+                    <td><select name="" id="">
+                            <option >BE</option>
+                            <option >BCA</option>
+                            <option >MCA</option>
+                            <option >BCS</option>
+                            <option >MBA</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Trainings</label></td>
+                    <td><input type="checkbox" checked><label for="">Angular</label>
+                        <input type="checkbox" ><label for="">Java</label>
+                        <input type="checkbox" ><label for="">.Net</label>
+                        <input type="checkbox" ><label for="">React</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+
+                    <td>
+                        <input type="radio" name="gender"><label>Male</label>
+                        <input type="radio" name="gender"><label>Female</label>
+                        <input type="radio" name="gender"><label>Other</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label for="">Permanent Address</label></td>
+
+                    <td><textarea name="" id="" cols="30" rows="6"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="Submit" ></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+                <tr>
+                    <td>Download Template</td>
+                    <td>
+                        <Button><a href="registrationForm.html" target="_blank">Download</a></Button>
+                    </td>
+                </tr>
+               
+            </tbody>
+        </table>
+    </form>
+    <p>
+
+        <strong>SSO sign in option</strong>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://www.google.co.in/" target="_blank">
+            <i class="fa fa-google fa-2x" aria-hidden="true"></i></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-2x"
+                aria-hidden="true"></i></a>
+
+    </p>
+</body>
+
+</html>
