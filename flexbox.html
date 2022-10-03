@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+       .container{
+        border: 3px solid rgb(16, 5, 5);
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+       }
+       .container div{
+        border: 3px solid brown;
+        background-color: aqua;
+      
+       }
+       /* .flex-item-1{
+        flex: 1;
+       }
+       .flex-item-2{
+        flex: 2;
+       }
+       .flex-item-3{
+        flex: 1;
+       } */
+       .tablediv{
+        display: flex;
+        height: 30vh;
+        justify-content: center;
+       }
+       table,td,th{
+        border: 4px solid rgb(115, 106, 106);       
+        border-collapse: collapse;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item-1">
+            <h3>Angular web development</h3>
+            <p>hi</p>
+        </div>
+        <div class="flex-item-2">
+            <h3>React web development</h3>
+            <p>hi</p>
+        </div>
+        <div class="flex-item-3">
+            <h3>View web development</h3>
+            <p>hi</p>
+        </div>
+
+    </div>
+    <div class="tablediv">
+        <table>
+            <caption>Student Table  </caption>
+            <thead>
+                <tr>
+                  <th colspan="4">Student Details</th>
+                </tr>
+                <tr>
+                    <th>Sr.No</th>
+                    <th>Name</th>
+                    <th>Mo.No</th>
+                    <th>E-mail</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Rahul</td>
+                    <td>749908184</td>
+                    <td>abc@gmil.com</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Dada</td>
+                    <td>749908134</td>
+                    <td>deg@gmil.com</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Ranjit</td>
+                    <td>749904758</td>
+                    <td>ght@gmil.com</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Virat</td>
+                    <td>749908654</td>
+                    <td>virat@gmil.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
